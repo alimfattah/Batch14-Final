@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FinalProject-Fattahul AMA</title>
+
+
+
+
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <div id="img-wrapper">
+        <img
+          src="img/html-logo.png"
+          alt="HTML Logo"
+    
+        />
+        
+      </div>
+      <div>
+        <p class="title">Simple Portofolio Website</p>
+      </div>
+      <nav>
+        <ul class="header-nav">
+          <li><a href="#content-1">About me</a></li>
+          <li><a href="#content-2">Experience</a></li>
+          <li><a href="#content-3">Education</a></li>
+          <li><a href="#content-4">Skills</a></li>
+          <li><a href="#content-5">Interest</a></li>
+          <li><a href="#content-6">Award</a></li>
+
+        </ul>
+      </nav>
+    </section>
+
+    <section class="content-wrapper">
+      <div class="content" id="content-1">
+        <h2>About me</h2>
+        <h3><span id="dynamic-text"></span></h3>
+
+
+
+        <p>
+            A fresh graduate from the University of Brawijaya looking for entry-level employment in electrical and
+            instrumentation. I was Tech-savvy and eager to learn about new technology, especially development in
+            renewable energy and electronic devices. Ability to work as an individual as well as in a group, effective at
+            keeping areas clean and neat to avoid delays, knowledge in using many measurement & calibration instruments,
+            and following work instructions.
+            
+        </p>
+      </div>
+      <div class="content" id="content-2">
+          <h2>Experience</h2>
+
+        <p>
+           <h3> PT. PABRIK GULA RAJAWALI I UNIT PG. KREBET BARU II -
+            Malang, Indonesia </h3> 
+            <h4> May 2022 - Jun 2022, as Instrument engineer Intern</h4>
+            
+            <ul>
+                <li>Learned the flow of sugar processing from raw materials to sugar products.</li>
+                <li>Analyzed instrumentation measurement system on bagging scale at the retail unit PG krebet baru II.</li>
+                <li>Analyzed the normal distribution of the data by reading the weight of granulated sugar in a 50 kg sack from the weighing indicator.</li>
+                <li>Replace several damaged components in the motor control center (MCC) and switch gear. eg. power supply.</li>
+                <li>Inspection and connecting the sensor output cable to the PLC on the junction box.</li>
+                <li>Relevant courses : PLC & DCS, Industrial Instrumentation, Sensors, Pneumatics System and Hydraulic</li>
+            </ul>
+            
+        </p>
+      </div>
+    </section>
+
+    <section class="content-wrapper">
+      <div class="content" id="content-3">
+        <h2>Education</h2>
+        <p>
+            <h3>Universitas Brawijaya - Malang, Indonesia</h3>
+            
+
+            <h4>Bachelor degree at faculty of mathematics and natural sciences in in the field of Instrumentation, 2022</h4>
+            
+            <ul>
+                <li>Teaching Assistant (Lab Demonstrator) for Fundamental Electronics Labworks II, Sensor Labwork, and Data Communication Labwork</li>
+            <li>Bachelor Thesis Title: Design of Single Polarity Voltage Source Using AD5290 Digital Potentiometer.</li>
+        <li>Relevant Courses: Fundamental Electronics II, Data communication, Embedded System, Structural Programming, Visual
+            Programming</li>    
+        </ul>
+            
+            
+            
+            
+        </p>
+      </div>
+      <div class="content" id="content-4">
+        <h2>Skills</h2>
+        <p>
+            <ol>
+                <li>Electronics Engineering: Schematic Capture, PCB Design & Assembly, Soldering, Power Converter Design, PLC, Embedded System,
+                    Measuring instruments, Prototyping, Electronic Troubleshooting, Automation</li>
+                <li>Instrument: Multimeter, Function Generator, Oscilloscope, Variable bench power supply, Bench LCR meter, Loop Calibrator</li>
+                
+                <li>Software: Multisim, Altium, EasyEDA, Kicad, Proteus, Eplan, Arduino IDE, Visual Studio, Embarcadero Delphi, Autocad, Microsoft
+                    Office, VM virtualbox</li>
+                <li>Soft Skills: Attention-to-details, Problem-solving, Flexibility, Active listening, Transparency, Task management
+                </li>
+                
+            </ol>
+            
+            
+        </p>
+      </div>
+    </section>
+    <section class="content-wrapper">
+      <div class="content" id="content-5">
+        <h2>Interest</h2>
+        <p>
+            <ul>
+                <li>Reading</li>
+                <li>Gaming</li>
+                <li>Listening to music</li>
+                <li>Cycling</li>
+            </ul>
+          
+          
+        </p>
+      </div>
+      <div class="content" id="content-6">
+        <h2>Award</h2>
+        <p>
+          Juara harapan 2 cabang seni SMA pencak silat PSHT pakis kab. malang Tahun 2015
+        </p>
+      </div>
+    </section>
+    <section class="section-form">
+        <form action="#" class="contact-form">
+
+            <div class="content" id="content-7">
+                <h2>Contact Me</h2>
+                <p>
+                  If you are interested please send me a message
+                </p>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" /> <br /><br />
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" /> <br /><br />
+                <label for="find-me">How did you find me?</label> <br />
+                <select name="find-me" id="find-me">
+                    <option value="friends" selected>Job Portal</option>
+                    <option value="search">Social media</option>
+                    <option value="ad">Friend</option>
+                    <option value="other">Other</option>
+                </select><br /><br />
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <br /><br />
+        
+                <button onclick="contactMe();"><i class="fa fa-envelope"></i> SUBMIT</button>
+              </div>
+        
+            </section>
+        </form>
+      
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+          } else {
+            document.getElementById("header").style.top = "-150px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.28/dist/sweetalert2.all.min.js
+"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      let typed = new Typed("#dynamic-text", {
+        strings: ["Welcome, this is the portfolio of Fattahul A.M.A.", "This portfolio was created as a requirement for completing a training course", "Belajar Langkah Fundamental Untuk Menjadi Web Developer by HACKTIV8"],
+        typeSpeed: 80,
+        backSpeed: 10,
+        loop: true
+      });
+
+      contactMe = () => {
+        Swal.fire({
+          icon: "success",
+          title: "Success",
+          text: "Thank you for contacting me. I will reply 2-3 days after via email",
+        });
+      };
+    </script>
+            <footer>
+                
+                    
+                        <ul class="footer-nav">
+                            <li><a href="#content-1">About me</a></li>
+                            <li><a href="#content-2">Experience</a></li>
+                            <li><a href="#content-3">Education</a></li>
+                            <li><a href="#content-4">Skills</a></li>
+                            <li><a href="#content-5">interest</a></li>
+                            <li><a href="#content-6">Award</a></li>
+
+                        </ul>
+                    
+                    
+                        <ul class="social-links">
+                            
+                            <li id="mail"><a onclick="window.open('mailto:alim.fattah91@gmail.com', '_blank'); return false;"<i class="fa fa-envelope"></i></a></li>
+                            <li><a href="#" target=="_blank"<i class="fa fa-linkedin-square"></i></a></li>
+                            <li><a href="https://github.com/alimfattah" target=="_blank"<i class="fa fa-github"></i></a></li>
+                            <li><a href="https://instagram.com" target=="_blank"<i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    
+                    <p>
+                        This begineer project was build by fattah in South Tangerang, Indonesia, Sept 2023.
+                    </p>
+                
+            </footer>
+  </body>
+</html>
